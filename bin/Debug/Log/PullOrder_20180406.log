@@ -1,0 +1,602 @@
+2018/4/6 14:12:00     Start PullOrder
+
+2018/4/6 14:12:36     ProgramID:  Order : 336601875---ER 
+Program ID:  is valid
+
+2018/4/6 14:12:36     ProgramID:  Order : 342696995---ER 
+Program ID:  is valid
+
+2018/4/6 14:12:36     ProgramID:  Order : 347390722---ER 
+Program ID:  is valid
+
+2018/4/6 14:12:36     ProgramID:  Order : 349537127---ER 
+Program ID:  is valid
+
+2018/4/6 14:12:36     ProgramID:  Order : 351906951---ER 
+Program ID:  is valid
+
+2018/4/6 14:12:36     ProgramID:  Order : 359715787---ER 
+Program ID:  is valid
+
+2018/4/6 14:12:36     ProgramID:  Order : 375580640---ER 
+Program ID:  is valid
+
+2018/4/6 14:12:36     ProgramID:  Order : 386769684---ER 
+Program ID:  is valid
+
+2018/4/6 14:12:36     ProgramID:  Order : 387836235---ER 
+Program ID:  is valid
+
+2018/4/6 14:12:36     ProgramID:  Order : 390458395---ER 
+Program ID:  is valid
+
+2018/4/6 14:12:36     ProgramID:  Order : 394874176---ER 
+Program ID:  is valid
+
+2018/4/6 14:12:36     ProgramID:  Order : 394880587---ER 
+Program ID:  is valid
+
+2018/4/6 14:12:36     ProgramID:  Order : 394881624---ER 
+Program ID:  is valid
+
+2018/4/6 14:12:36     ProgramID:  Order : 394884055---ER 
+Program ID:  is valid
+
+2018/4/6 14:12:36     ProgramID:  Order : 394886265---ER 
+Program ID:  is valid
+
+2018/4/6 14:12:36     ProgramID:  Order : 394889314---ER 
+Program ID:  is valid
+
+2018/4/6 14:12:36     ProgramID:  Order : 397551377---ER 
+Program ID:  is valid
+
+2018/4/6 14:12:36     ProgramID:  Order : 397563717---ER 
+Program ID:  is valid
+
+2018/4/6 14:12:58     SentAlterEmail---ER 
+发送邮件失败。--System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 69.7.171.161:25
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   在 System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   在 System.Net.PooledStream.Activate(Object owningObject, GeneralAsyncDelegate asyncCallback)
+   在 System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   在 System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   在 System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   在 System.Net.Mail.SmtpClient.GetConnection()
+   在 System.Net.Mail.SmtpClient.Send(MailMessage message)--   在 System.Net.Mail.SmtpClient.Send(MailMessage message)
+   在 WComm.MyEmail.Send() 位置 E:\Deltafill\SmartCenter\Code\ST\WComm\MyEmail.cs:行号 139
+
+2018/4/6 14:12:58     Finish
+
+
+
+
+2018/4/6 14:31:26     Start PullOrder
+
+2018/4/6 14:31:41     ProgramID:  Order : 336601875---Start
+
+2018/4/6 14:31:41     ProgramID:  Order : 336601875---ER 
+Program ID:  is valid
+
+2018/4/6 14:31:41     ProgramID:  Order : 342696995---Start
+
+2018/4/6 14:31:41     ProgramID:  Order : 342696995---ER 
+Program ID:  is valid
+
+2018/4/6 14:31:41     ProgramID:  Order : 347390722---Start
+
+2018/4/6 14:31:41     ProgramID:  Order : 347390722---ER 
+Program ID:  is valid
+
+2018/4/6 14:31:41     ProgramID:  Order : 349537127---Start
+
+2018/4/6 14:31:41     ProgramID:  Order : 349537127---ER 
+Program ID:  is valid
+
+2018/4/6 14:31:41     ProgramID:  Order : 351906951---Start
+
+2018/4/6 14:31:41     ProgramID:  Order : 351906951---ER 
+Program ID:  is valid
+
+2018/4/6 14:31:41     ProgramID:  Order : 359715787---Start
+
+2018/4/6 14:31:41     ProgramID:  Order : 359715787---ER 
+Program ID:  is valid
+
+2018/4/6 14:31:41     ProgramID:  Order : 375580640---Start
+
+2018/4/6 14:31:41     ProgramID:  Order : 375580640---ER 
+Program ID:  is valid
+
+2018/4/6 14:31:41     ProgramID:  Order : 386769684---Start
+
+2018/4/6 14:31:41     ProgramID:  Order : 386769684---ER 
+Program ID:  is valid
+
+2018/4/6 14:31:41     ProgramID:  Order : 387836235---Start
+
+2018/4/6 14:31:41     ProgramID:  Order : 387836235---ER 
+Program ID:  is valid
+
+2018/4/6 14:31:41     ProgramID:  Order : 390458395---Start
+
+2018/4/6 14:31:41     ProgramID:  Order : 390458395---ER 
+Program ID:  is valid
+
+2018/4/6 14:31:41     ProgramID:  Order : 394874176---Start
+
+2018/4/6 14:31:41     ProgramID:  Order : 394874176---ER 
+Program ID:  is valid
+
+2018/4/6 14:31:41     ProgramID:  Order : 394880587---Start
+
+2018/4/6 14:31:41     ProgramID:  Order : 394880587---ER 
+Program ID:  is valid
+
+2018/4/6 14:31:41     ProgramID:  Order : 394881624---Start
+
+2018/4/6 14:31:41     ProgramID:  Order : 394881624---ER 
+Program ID:  is valid
+
+2018/4/6 14:31:41     ProgramID:  Order : 394884055---Start
+
+2018/4/6 14:31:41     ProgramID:  Order : 394884055---ER 
+Program ID:  is valid
+
+2018/4/6 14:31:41     ProgramID:  Order : 394886265---Start
+
+2018/4/6 14:31:41     ProgramID:  Order : 394886265---ER 
+Program ID:  is valid
+
+2018/4/6 14:31:41     ProgramID:  Order : 394889314---Start
+
+2018/4/6 14:31:41     ProgramID:  Order : 394889314---ER 
+Program ID:  is valid
+
+2018/4/6 14:31:41     ProgramID:  Order : 397551377---Start
+
+2018/4/6 14:31:41     ProgramID:  Order : 397551377---ER 
+Program ID:  is valid
+
+2018/4/6 14:31:41     ProgramID:  Order : 397563717---Start
+
+2018/4/6 14:31:41     ProgramID:  Order : 397563717---ER 
+Program ID:  is valid
+
+2018/4/6 14:31:41     ProgramID:462  Order : 399065423---Start
+
+2018/4/6 14:31:41     ProgramID:462  Order : 399726661---Start
+
+2018/4/6 14:31:41     ProgramID:462  Order : 399726619---Start
+
+2018/4/6 14:31:41     ProgramID:462  Order : 399726624---Start
+
+2018/4/6 14:31:41     ProgramID:462  Order : 399726629---Start
+
+2018/4/6 14:31:41     ProgramID:462  Order : 399726633---Start
+
+2018/4/6 14:31:42     ProgramID:462  Order : 399726636---Start
+
+2018/4/6 14:31:42     ProgramID:462  Order : 399726638---Start
+
+2018/4/6 14:31:42     ProgramID:462  Order : 399726639---Start
+
+2018/4/6 14:31:42     ProgramID:462  Order : 399726650---Start
+
+2018/4/6 14:31:42     ProgramID:462  Order : 399726651---Start
+
+2018/4/6 14:31:42     ProgramID:462  Order : 399726653---Start
+
+2018/4/6 14:31:42     ProgramID:462  Order : 399726675---Start
+
+2018/4/6 14:31:42     ProgramID:462  Order : 399623943---Start
+
+2018/4/6 14:31:42     ProgramID:462  Order : 399726680---Start
+
+2018/4/6 14:31:42     ProgramID:462  Order : 400192772---Start
+
+2018/4/6 14:31:42     ProgramID:463  Order : 400474873---Start
+
+2018/4/6 14:31:42     ProgramID:462  Order : 400424262---Start
+
+2018/4/6 14:31:42     ProgramID:462  Order : 400465401---Start
+
+2018/4/6 14:31:42     ProgramID:462  Order : 400465400---Start
+
+2018/4/6 14:31:42     ProgramID:462  Order : 400491848---Start
+
+2018/4/6 14:31:42     ProgramID:462  Order : 400518163---Start
+
+2018/4/6 14:31:42     ProgramID:462  Order : 400518160---Start
+
+2018/4/6 14:32:03     SentAlterEmail---ER 
+发送邮件失败。--System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 69.7.171.161:25
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   在 System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   在 System.Net.PooledStream.Activate(Object owningObject, GeneralAsyncDelegate asyncCallback)
+   在 System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   在 System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   在 System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   在 System.Net.Mail.SmtpClient.GetConnection()
+   在 System.Net.Mail.SmtpClient.Send(MailMessage message)--   在 System.Net.Mail.SmtpClient.Send(MailMessage message)
+   在 WComm.MyEmail.Send() 位置 E:\Deltafill\SmartCenter\Code\ST\WComm\MyEmail.cs:行号 139
+
+2018/4/6 14:32:03     Finish
+
+
+
+
+2018/4/6 14:32:34     Start PullOrder
+
+2018/4/6 14:32:49     ProgramID:  Order : 336601875---Start
+
+2018/4/6 14:32:49     ProgramID:  Order : 336601875---ER 
+Program ID:  is valid
+
+2018/4/6 14:32:49     ProgramID:  Order : 342696995---Start
+
+2018/4/6 14:32:49     ProgramID:  Order : 342696995---ER 
+Program ID:  is valid
+
+2018/4/6 14:32:49     ProgramID:  Order : 347390722---Start
+
+2018/4/6 14:32:49     ProgramID:  Order : 347390722---ER 
+Program ID:  is valid
+
+2018/4/6 14:32:49     ProgramID:  Order : 349537127---Start
+
+2018/4/6 14:32:49     ProgramID:  Order : 349537127---ER 
+Program ID:  is valid
+
+2018/4/6 14:32:49     ProgramID:  Order : 351906951---Start
+
+2018/4/6 14:32:49     ProgramID:  Order : 351906951---ER 
+Program ID:  is valid
+
+2018/4/6 14:32:49     ProgramID:  Order : 359715787---Start
+
+2018/4/6 14:32:49     ProgramID:  Order : 359715787---ER 
+Program ID:  is valid
+
+2018/4/6 14:32:49     ProgramID:  Order : 375580640---Start
+
+2018/4/6 14:32:49     ProgramID:  Order : 375580640---ER 
+Program ID:  is valid
+
+2018/4/6 14:32:49     ProgramID:  Order : 386769684---Start
+
+2018/4/6 14:32:49     ProgramID:  Order : 386769684---ER 
+Program ID:  is valid
+
+2018/4/6 14:32:49     ProgramID:  Order : 387836235---Start
+
+2018/4/6 14:32:49     ProgramID:  Order : 387836235---ER 
+Program ID:  is valid
+
+2018/4/6 14:32:49     ProgramID:  Order : 390458395---Start
+
+2018/4/6 14:32:49     ProgramID:  Order : 390458395---ER 
+Program ID:  is valid
+
+2018/4/6 14:32:49     ProgramID:  Order : 394874176---Start
+
+2018/4/6 14:32:49     ProgramID:  Order : 394874176---ER 
+Program ID:  is valid
+
+2018/4/6 14:32:49     ProgramID:  Order : 394880587---Start
+
+2018/4/6 14:32:49     ProgramID:  Order : 394880587---ER 
+Program ID:  is valid
+
+2018/4/6 14:32:49     ProgramID:  Order : 394881624---Start
+
+2018/4/6 14:32:49     ProgramID:  Order : 394881624---ER 
+Program ID:  is valid
+
+2018/4/6 14:32:49     ProgramID:  Order : 394884055---Start
+
+2018/4/6 14:32:49     ProgramID:  Order : 394884055---ER 
+Program ID:  is valid
+
+2018/4/6 14:32:49     ProgramID:  Order : 394886265---Start
+
+2018/4/6 14:32:49     ProgramID:  Order : 394886265---ER 
+Program ID:  is valid
+
+2018/4/6 14:32:49     ProgramID:  Order : 394889314---Start
+
+2018/4/6 14:32:49     ProgramID:  Order : 394889314---ER 
+Program ID:  is valid
+
+2018/4/6 14:32:49     ProgramID:  Order : 397551377---Start
+
+2018/4/6 14:32:49     ProgramID:  Order : 397551377---ER 
+Program ID:  is valid
+
+2018/4/6 14:32:49     ProgramID:  Order : 397563717---Start
+
+2018/4/6 14:32:49     ProgramID:  Order : 397563717---ER 
+Program ID:  is valid
+
+2018/4/6 14:32:49     ProgramID:462  Order : 399065423---Start
+
+2018/4/6 14:32:49     26878   462
+
+2018/4/6 14:33:01     26878   462
+
+2018/4/6 14:33:06     ProgramID:462  Order : 399065423---OK
+
+2018/4/6 14:33:06     ProgramID:462  Order : 399726661---Start
+
+2018/4/6 14:33:06     26878   462
+
+2018/4/6 14:33:06     ProgramID:462  Order : 399726661---OK
+
+2018/4/6 14:33:06     ProgramID:462  Order : 399726619---Start
+
+2018/4/6 14:33:06     26878   462
+
+2018/4/6 14:33:06     ProgramID:462  Order : 399726619---OK
+
+2018/4/6 14:33:06     ProgramID:462  Order : 399726624---Start
+
+2018/4/6 14:33:06     26878   462
+
+2018/4/6 14:33:06     ProgramID:462  Order : 399726624---OK
+
+2018/4/6 14:33:06     ProgramID:462  Order : 399726629---Start
+
+2018/4/6 14:33:06     26878   462
+
+2018/4/6 14:33:06     ProgramID:462  Order : 399726629---OK
+
+2018/4/6 14:33:06     ProgramID:462  Order : 399726633---Start
+
+2018/4/6 14:33:06     26878   462
+
+2018/4/6 14:33:06     ProgramID:462  Order : 399726633---OK
+
+2018/4/6 14:33:06     ProgramID:462  Order : 399726636---Start
+
+2018/4/6 14:33:06     26878   462
+
+2018/4/6 14:33:06     ProgramID:462  Order : 399726636---OK
+
+2018/4/6 14:33:06     ProgramID:462  Order : 399726638---Start
+
+2018/4/6 14:33:06     26878   462
+
+2018/4/6 14:33:06     ProgramID:462  Order : 399726638---OK
+
+2018/4/6 14:33:06     ProgramID:462  Order : 399726639---Start
+
+2018/4/6 14:33:06     26878   462
+
+2018/4/6 14:33:06     ProgramID:462  Order : 399726639---OK
+
+2018/4/6 14:33:07     ProgramID:462  Order : 399726650---Start
+
+2018/4/6 14:33:07     26878   462
+
+2018/4/6 14:33:07     ProgramID:462  Order : 399726650---OK
+
+2018/4/6 14:33:07     ProgramID:462  Order : 399726651---Start
+
+2018/4/6 14:33:07     26878   462
+
+2018/4/6 14:33:07     ProgramID:462  Order : 399726651---OK
+
+2018/4/6 14:33:07     ProgramID:462  Order : 399726653---Start
+
+2018/4/6 14:33:07     26878   462
+
+2018/4/6 14:33:07     ProgramID:462  Order : 399726653---OK
+
+2018/4/6 14:33:07     ProgramID:462  Order : 399726675---Start
+
+2018/4/6 14:33:07     26878   462
+
+2018/4/6 14:33:07     ProgramID:462  Order : 399726675---OK
+
+2018/4/6 14:33:07     ProgramID:462  Order : 399623943---Start
+
+2018/4/6 14:33:07     26878   462
+
+2018/4/6 14:33:07     ProgramID:462  Order : 399623943---OK
+
+2018/4/6 14:33:07     ProgramID:462  Order : 399726680---Start
+
+2018/4/6 14:33:07     26878   462
+
+2018/4/6 14:33:07     ProgramID:462  Order : 399726680---OK
+
+2018/4/6 14:33:07     ProgramID:462  Order : 400192772---Start
+
+2018/4/6 14:33:07     26878   462
+
+2018/4/6 14:33:07     26878   462
+
+2018/4/6 14:33:07     ProgramID:462  Order : 400192772---OK
+
+2018/4/6 14:33:07     ProgramID:463  Order : 400474873---Start
+
+2018/4/6 14:33:07     26878   463
+
+2018/4/6 14:33:07     ProgramID:463  Order : 400474873---OK
+
+2018/4/6 14:33:07     ProgramID:462  Order : 400424262---Start
+
+2018/4/6 14:33:07     26878   462
+
+2018/4/6 14:33:07     26878   462
+
+2018/4/6 14:33:07     26878   462
+
+2018/4/6 14:33:07     26878   462
+
+2018/4/6 14:33:07     26878   462
+
+2018/4/6 14:33:07     ProgramID:462  Order : 400424262---OK
+
+2018/4/6 14:33:07     ProgramID:462  Order : 400465401---Start
+
+2018/4/6 14:33:07     26878   462
+
+2018/4/6 14:33:08     ProgramID:462  Order : 400465401---OK
+
+2018/4/6 14:33:08     ProgramID:462  Order : 400465400---Start
+
+2018/4/6 14:33:08     26878   462
+
+2018/4/6 14:33:08     26878   462
+
+2018/4/6 14:33:08     ProgramID:462  Order : 400465400---OK
+
+2018/4/6 14:33:08     ProgramID:462  Order : 400491848---Start
+
+2018/4/6 14:33:08     26878   462
+
+2018/4/6 14:33:08     26878   462
+
+2018/4/6 14:33:08     26878   462
+
+2018/4/6 14:33:08     ProgramID:462  Order : 400491848---OK
+
+2018/4/6 14:33:08     ProgramID:462  Order : 400518163---Start
+
+2018/4/6 14:33:08     26878   462
+
+2018/4/6 14:33:08     26878   462
+
+2018/4/6 14:33:08     26878   462
+
+2018/4/6 14:33:08     ProgramID:462  Order : 400518163---OK
+
+2018/4/6 14:33:08     ProgramID:462  Order : 400518160---Start
+
+2018/4/6 14:33:08     26878   462
+
+2018/4/6 14:33:08     ProgramID:462  Order : 400518160---OK
+
+2018/4/6 14:33:29     SentAlterEmail---ER 
+发送邮件失败。--System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 69.7.171.161:25
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.ServicePoint.GetConnection(PooledStream PooledStream, Object owner, Boolean async, IPAddress& address, Socket& abortSocket, Socket& abortSocket6)
+   在 System.Net.PooledStream.Activate(Object owningObject, Boolean async, GeneralAsyncDelegate asyncCallback)
+   在 System.Net.PooledStream.Activate(Object owningObject, GeneralAsyncDelegate asyncCallback)
+   在 System.Net.ConnectionPool.GetConnection(Object owningObject, GeneralAsyncDelegate asyncCallback, Int32 creationTimeout)
+   在 System.Net.Mail.SmtpConnection.GetConnection(ServicePoint servicePoint)
+   在 System.Net.Mail.SmtpTransport.GetConnection(ServicePoint servicePoint)
+   在 System.Net.Mail.SmtpClient.GetConnection()
+   在 System.Net.Mail.SmtpClient.Send(MailMessage message)--   在 System.Net.Mail.SmtpClient.Send(MailMessage message)
+   在 WComm.MyEmail.Send() 位置 E:\Deltafill\SmartCenter\Code\ST\WComm\MyEmail.cs:行号 139
+
+2018/4/6 14:33:29     Finish
+
+
+
+
+2018/4/6 14:35:16     Start PullOrder
+
+2018/4/6 14:35:31     ProgramID:  Order : 336601875---Start
+
+2018/4/6 14:35:31     ProgramID:  Order : 336601875---ER 
+Program ID:  is valid
+
+2018/4/6 14:35:31     ProgramID:  Order : 342696995---Start
+
+2018/4/6 14:35:31     ProgramID:  Order : 342696995---ER 
+Program ID:  is valid
+
+2018/4/6 14:35:31     ProgramID:  Order : 347390722---Start
+
+2018/4/6 14:35:31     ProgramID:  Order : 347390722---ER 
+Program ID:  is valid
+
+2018/4/6 14:35:31     ProgramID:  Order : 349537127---Start
+
+2018/4/6 14:35:31     ProgramID:  Order : 349537127---ER 
+Program ID:  is valid
+
+2018/4/6 14:35:31     ProgramID:  Order : 351906951---Start
+
+2018/4/6 14:35:31     ProgramID:  Order : 351906951---ER 
+Program ID:  is valid
+
+2018/4/6 14:35:31     ProgramID:  Order : 359715787---Start
+
+2018/4/6 14:35:31     ProgramID:  Order : 359715787---ER 
+Program ID:  is valid
+
+2018/4/6 14:35:31     ProgramID:  Order : 375580640---Start
+
+2018/4/6 14:35:31     ProgramID:  Order : 375580640---ER 
+Program ID:  is valid
+
+2018/4/6 14:35:31     ProgramID:  Order : 386769684---Start
+
+2018/4/6 14:35:31     ProgramID:  Order : 386769684---ER 
+Program ID:  is valid
+
+2018/4/6 14:35:31     ProgramID:  Order : 387836235---Start
+
+2018/4/6 14:35:31     ProgramID:  Order : 387836235---ER 
+Program ID:  is valid
+
+2018/4/6 14:35:31     ProgramID:  Order : 390458395---Start
+
+2018/4/6 14:35:31     ProgramID:  Order : 390458395---ER 
+Program ID:  is valid
+
+2018/4/6 14:35:31     ProgramID:  Order : 394874176---Start
+
+2018/4/6 14:35:31     ProgramID:  Order : 394874176---ER 
+Program ID:  is valid
+
+2018/4/6 14:35:31     ProgramID:  Order : 394880587---Start
+
+2018/4/6 14:35:31     ProgramID:  Order : 394880587---ER 
+Program ID:  is valid
+
+2018/4/6 14:35:31     ProgramID:  Order : 394881624---Start
+
+2018/4/6 14:35:31     ProgramID:  Order : 394881624---ER 
+Program ID:  is valid
+
+2018/4/6 14:35:31     ProgramID:  Order : 394884055---Start
+
+2018/4/6 14:35:31     ProgramID:  Order : 394884055---ER 
+Program ID:  is valid
+
+2018/4/6 14:35:31     ProgramID:  Order : 394886265---Start
+
+2018/4/6 14:35:31     ProgramID:  Order : 394886265---ER 
+Program ID:  is valid
+
+2018/4/6 14:35:31     ProgramID:  Order : 394889314---Start
+
+2018/4/6 14:35:31     ProgramID:  Order : 394889314---ER 
+Program ID:  is valid
+
+2018/4/6 14:35:31     ProgramID:  Order : 397551377---Start
+
+2018/4/6 14:35:31     ProgramID:  Order : 397551377---ER 
+Program ID:  is valid
+
+2018/4/6 14:35:31     ProgramID:  Order : 397563717---Start
+
+2018/4/6 14:35:31     ProgramID:  Order : 397563717---ER 
+Program ID:  is valid
+
+2018/4/6 14:35:31     ProgramID:462  Order : 399065423---Start
+
+2018/4/6 14:35:31     26878   462  3BLUEBAYOU-XXXL
+

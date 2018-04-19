@@ -1,0 +1,280 @@
+Date:2018/4/6 13:18:27
+Address From:noreply@orderz.com
+Address To:ludan176127@163.com
+Address Bcc:
+Subject:[Test][Job] Failure : [PullOrder]
+DATE : 2018-04-06 13:18 CST
+Record(s) : 19
+
+DETAILS : 
+336601875
+Program ID:  is valid
+342696995
+Program ID:  is valid
+347390722
+Program ID:  is valid
+349537127
+Program ID:  is valid
+351906951
+Program ID:  is valid
+359715787
+Program ID:  is valid
+375580640
+Program ID:  is valid
+386769684
+Program ID:  is valid
+387836235
+Program ID:  is valid
+390458395
+Program ID:  is valid
+394874176
+Program ID:  is valid
+394880587
+Program ID:  is valid
+394881624
+Program ID:  is valid
+394884055
+Program ID:  is valid
+394886265
+Program ID:  is valid
+394889314
+Program ID:  is valid
+397551377
+Program ID:  is valid
+397563717
+Program ID:  is valid
+400474873
+Exception occurred at: 2018/4/6 13:17:44
+Details: Exception occurred in DataAccess.execSql
+Could not execute the following query:
+ Insert Into [Program_Product] ( [ProgramId],[ProductId],[ContentStatusId],[PartNumber],[Name],[ShortDesc],[LongDesc],[Price],[Weight],[EstUnits],[EstCommitted],[EstLow],[MaxQtySell],[MaxBackOrder],[MaxPreOrder],[IsSellOnline],[IsCommissionable],[IsOptionKit],[OnlineDate],[OfflineDate],[UpdatedBy],[UpdatedOn],[safeStockLevel],[PHOnHand],[PHCommitted],[PHBlocked],[PHOnhold],[PHHard],[Phantom],[phpending],[ItemClass],[DefaultInventoryType] ) values ( 463,28097,1,N'869277000126',N'869277000126',null,null,0.00,0.00,0.00,0.00,0.00,0,0,0,0,0,0,null,null,null,null,0,0,0,0,0,0,0,0,null,null );SELECT scope_Identity()
+See inner exception information for details.
+Inner Exception: System.Data.SqlClient.SqlException (0x80131904): INSERT 语句与 FOREIGN KEY 约束"FK_Program_Product_Program"冲突。该冲突发生于数据库"ZFulfillment"，表"dbo.Program", column 'ProgramId'。
+语句已终止。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader()
+   在 WComm.DataFactory.getDataTable(String sql) 位置 E:\Deltafill\SmartCenter\Code\ST\WComm\DataFactory.cs:行号 166
+ClientConnectionId:9f4144f3-7a76-40cf-ab2c-beee66d7f58c
+Error Number:547,State:0,Class:16---未将对象引用设置到对象的实例。
+
+
+
+This is a  CONFIDENTIAL email. Do not reply to this email.
+SMTP Server:smtp01.orderz.com
+
+
+Date:2018/4/6 13:25:02
+Address From:noreply@orderz.com
+Address To:ludan176127@163.com
+Address Bcc:
+Subject:[Test][Job] Failure : [PullOrder]
+DATE : 2018-04-06 13:24 CST
+Record(s) : 18
+
+DETAILS : 
+336601875
+Program ID:  is valid
+342696995
+Program ID:  is valid
+347390722
+Program ID:  is valid
+349537127
+Program ID:  is valid
+351906951
+Program ID:  is valid
+359715787
+Program ID:  is valid
+375580640
+Program ID:  is valid
+386769684
+Program ID:  is valid
+387836235
+Program ID:  is valid
+390458395
+Program ID:  is valid
+394874176
+Program ID:  is valid
+394880587
+Program ID:  is valid
+394881624
+Program ID:  is valid
+394884055
+Program ID:  is valid
+394886265
+Program ID:  is valid
+394889314
+Program ID:  is valid
+397551377
+Program ID:  is valid
+397563717
+Program ID:  is valid
+
+
+This is a  CONFIDENTIAL email. Do not reply to this email.
+SMTP Server:smtp01.orderz.com
+
+
+Date:2018/4/6 14:12:58
+Address From:noreply@orderz.com
+Address To:ludan176127@163.com
+Address Bcc:
+Subject:[Test][Job] Failure : [PullOrder]
+DATE : 2018-04-06 14:12 CST
+Record(s) : 18
+
+DETAILS : 
+336601875
+Program ID:  is valid
+342696995
+Program ID:  is valid
+347390722
+Program ID:  is valid
+349537127
+Program ID:  is valid
+351906951
+Program ID:  is valid
+359715787
+Program ID:  is valid
+375580640
+Program ID:  is valid
+386769684
+Program ID:  is valid
+387836235
+Program ID:  is valid
+390458395
+Program ID:  is valid
+394874176
+Program ID:  is valid
+394880587
+Program ID:  is valid
+394881624
+Program ID:  is valid
+394884055
+Program ID:  is valid
+394886265
+Program ID:  is valid
+394889314
+Program ID:  is valid
+397551377
+Program ID:  is valid
+397563717
+Program ID:  is valid
+
+
+This is a  CONFIDENTIAL email. Do not reply to this email.
+SMTP Server:smtp01.orderz.com
+
+
+Date:2018/4/6 14:32:03
+Address From:noreply@orderz.com
+Address To:ludan176127@163.com
+Address Bcc:
+Subject:[Test][Job] Failure : [PullOrder]
+DATE : 2018-04-06 14:31 CST
+Record(s) : 18
+
+DETAILS : 
+336601875
+Program ID:  is valid
+342696995
+Program ID:  is valid
+347390722
+Program ID:  is valid
+349537127
+Program ID:  is valid
+351906951
+Program ID:  is valid
+359715787
+Program ID:  is valid
+375580640
+Program ID:  is valid
+386769684
+Program ID:  is valid
+387836235
+Program ID:  is valid
+390458395
+Program ID:  is valid
+394874176
+Program ID:  is valid
+394880587
+Program ID:  is valid
+394881624
+Program ID:  is valid
+394884055
+Program ID:  is valid
+394886265
+Program ID:  is valid
+394889314
+Program ID:  is valid
+397551377
+Program ID:  is valid
+397563717
+Program ID:  is valid
+
+
+This is a  CONFIDENTIAL email. Do not reply to this email.
+SMTP Server:smtp01.orderz.com
+
+
+Date:2018/4/6 14:33:29
+Address From:noreply@orderz.com
+Address To:ludan176127@163.com
+Address Bcc:
+Subject:[Test][Job] Failure : [PullOrder]
+DATE : 2018-04-06 14:33 CST
+Record(s) : 18
+
+DETAILS : 
+336601875
+Program ID:  is valid
+342696995
+Program ID:  is valid
+347390722
+Program ID:  is valid
+349537127
+Program ID:  is valid
+351906951
+Program ID:  is valid
+359715787
+Program ID:  is valid
+375580640
+Program ID:  is valid
+386769684
+Program ID:  is valid
+387836235
+Program ID:  is valid
+390458395
+Program ID:  is valid
+394874176
+Program ID:  is valid
+394880587
+Program ID:  is valid
+394881624
+Program ID:  is valid
+394884055
+Program ID:  is valid
+394886265
+Program ID:  is valid
+394889314
+Program ID:  is valid
+397551377
+Program ID:  is valid
+397563717
+Program ID:  is valid
+
+
+This is a  CONFIDENTIAL email. Do not reply to this email.
+SMTP Server:smtp01.orderz.com
+
+

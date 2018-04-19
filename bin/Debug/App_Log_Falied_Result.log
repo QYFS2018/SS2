@@ -1,0 +1,8 @@
+Date:2018/4/6 14:10:20
+Table Name:App_Log_SQL
+SQL:
+Result:The field CreatedOn can't accept null value.----   在 WComm.Gateway.get_SQL_Insert() 位置 E:\Deltafill\SmartCenter\Code\ST\WComm\Gateway.cs:行号 148
+   在 WComm.Gateway.Save() 位置 E:\Deltafill\SmartCenter\Code\ST\WComm\Gateway.cs:行号 804---未将对象引用设置到对象的实例。
+
+
+
