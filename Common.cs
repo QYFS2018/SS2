@@ -81,6 +81,7 @@ namespace SS2
             }
             _tApp_Log_SQL.Success = false;
             _tApp_Log_SQL.SQLText = result.SQLText;
+            _tApp_Log_SQL.CreatedOn = System.DateTime.Now;
            
             _tApp_Log_SQL.SQLType = "Code";
             _tApp_Log_SQL.Save();

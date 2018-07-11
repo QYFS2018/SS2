@@ -64,6 +64,22 @@ namespace SS2
                         }
                     }
                 }
+                catch (System.AggregateException ex2)
+                {
+                   _result.Success = false;
+                   _result.ErrMessage = ex2.ToString();
+                    return _result;
+                }
+                catch (System.Net.Http.HttpRequestException ex3)
+                {
+                    _result.Success = false;
+                    _result.ErrMessage = ex3.ToString();
+                    return _result;
+                }
+                catch (System.Net.WebException ex)
+                {
+                    HttpWebResponse response = (HttpWebResponse)ex.Response;
+                }
                 catch (Exception e)
                 {
                     _result.Success = false;

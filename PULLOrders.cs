@@ -124,6 +124,8 @@ namespace SS2
 
                 Common.Log("PULLOrders---ER \r\n" + _result.ErrMessage);
 
+                Common.SentAlterEmail(1, _result.ErrMessage);
+
                 return _result;
             }
 
