@@ -17,9 +17,18 @@ namespace SS2
         private static string authorization = System.Configuration.ConfigurationSettings.AppSettings["Authorization"];
         private static Uri apiURL = new Uri(System.Configuration.ConfigurationSettings.AppSettings["ShipSationAPI"]);
 
+
+        public ShipStationAPI()
+        {
+          
+        }
+
+
         public static ReturnValue PULLOrders()
         {
             ReturnValue _result = new ReturnValue();
+
+            ServicePointManager.SecurityProtocol = (SecurityProtocolType)3072;
 
             int pageIndex = 1;
             ShipStationResponse responseInfo = new Model.ShipStationResponse();
@@ -98,6 +107,9 @@ namespace SS2
         public static ReturnValue MarkAsShipped(TOrder order, string sOrderID)
         {
             ReturnValue _result = new ReturnValue();
+
+            ServicePointManager.SecurityProtocol = (SecurityProtocolType)3072;
+
             try
             {
                 using (var httpClient = new HttpClient { BaseAddress = apiURL })
